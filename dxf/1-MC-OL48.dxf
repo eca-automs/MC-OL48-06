@@ -23,17 +23,17 @@ $INSBASE
   9
 $EXTMIN
  10
-20.3926056338
+10000000000
  20
-12.5492957746
+10000000000
  30
 0
   9
 $EXTMAX
  10
-408.897887324
+-10000000000
  20
-286.019366197
+-10000000000
  30
 0
   9
@@ -1117,7 +1117,7 @@ AcDbViewportTableRecord
  12
 225.0869041168985
  22
-144.502232477635
+144.3404158679176
  13
 0
  23
@@ -2357,7 +2357,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-iso
+standard
  70
     0
  40
@@ -2371,7 +2371,7 @@ iso
  42
 1
   3
-iso
+standard
   4
 
   0
@@ -2385,7 +2385,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-standard
+iso
  70
     0
  40
@@ -2399,7 +2399,7 @@ standard
  42
 1
   3
-standard
+iso
   4
 
   0
@@ -8205,52 +8205,6 @@ F6
 100
 AcDbEntity
   8
-text
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
-210
- 20
-200
- 30
-0
- 40
-10
- 41
-139.7222201022014
- 71
-    2
- 72
-    1
-  1
-SCHEMA MC-OL48-06\P\PVERSIONE 0.0.0
-  7
-standard
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-MTEXT
-  5
-F7
-100
-AcDbEntity
-  8
 frame-title
   6
 ByLayer
@@ -8276,6 +8230,52 @@ AcDbMText
     1
   1
 Schema: MC-OL48-06\PAutore: Belardi\PData: 01/15\PFoglio: 1 di 17
+  7
+standard
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+F7
+100
+AcDbEntity
+  8
+text
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+210
+ 20
+200
+ 30
+0
+ 40
+10
+ 41
+139.7222201022014
+ 71
+    2
+ 72
+    1
+  1
+SCHEMA MC-OL48-06\P\PVERSIONE 0.0.1
   7
 standard
 210
