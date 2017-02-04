@@ -23,17 +23,17 @@ $INSBASE
   9
 $EXTMIN
  10
--0.5
+10000000000
  20
-0.25
+10000000000
  30
 0
   9
 $EXTMAX
  10
-419.5
+-10000000000
  20
-297.25
+-10000000000
  30
 0
   9
@@ -1115,9 +1115,9 @@ AcDbViewportTableRecord
  21
 1
  12
-232.6792899408284
+232.8350830311128
  22
-150.2573964497041
+150.3802252338233
  13
 0
  23
@@ -1145,7 +1145,7 @@ AcDbViewportTableRecord
  40
 304.0295857988166
  41
-1.680924855491329
+1.73715651135006
  42
 50
  43
@@ -2401,7 +2401,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-iso
+standard
  70
     0
  40
@@ -2415,7 +2415,7 @@ iso
  42
 1
   3
-iso
+standard
   4
 
   0
@@ -2429,7 +2429,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-standard
+iso
  70
     0
  40
@@ -2443,7 +2443,7 @@ standard
  42
 1
   3
-standard
+iso
   4
 
   0
@@ -22199,55 +22199,9 @@ standard
  44
 1
   0
-MTEXT
-  5
-2BD
-100
-AcDbEntity
-  8
-frame-title
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
-303.3333339693398
- 20
-35
- 30
-0
- 40
-3
- 41
-41.58333269732749
- 71
-    1
- 72
-    1
-  1
-Schema: MC-OL48-06\PAutore: Belardi\PData: 01/16\PFoglio: 13 di 18
-  7
-standard
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
 INSERT
   5
-2BE
+2BD
 100
 AcDbEntity
   8
@@ -22287,7 +22241,7 @@ buzzer
   0
 LINE
   5
-2BF
+2BE
 100
 AcDbEntity
   8
@@ -22311,7 +22265,7 @@ AcDbLine
   0
 LINE
   5
-2C0
+2BF
 100
 AcDbEntity
   8
@@ -22335,7 +22289,7 @@ AcDbLine
   0
 LINE
   5
-2C1
+2C0
 100
 AcDbEntity
   8
@@ -22359,7 +22313,7 @@ AcDbLine
   0
 LINE
   5
-2C2
+2C1
 100
 AcDbEntity
   8
@@ -22383,7 +22337,7 @@ AcDbLine
   0
 LINE
   5
-2C3
+2C2
 100
 AcDbEntity
   8
@@ -22402,6 +22356,30 @@ AcDbLine
 93
  11
 352
+ 21
+90
+  0
+LINE
+  5
+2C3
+100
+AcDbEntity
+  8
+schematic
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+352
+ 20
+90
+ 11
+350
  21
 90
   0
@@ -22421,11 +22399,11 @@ ByLayer
 100
 AcDbLine
  10
-352
+367
  20
-90
+80
  11
-350
+367
  21
 90
   0
@@ -22447,9 +22425,9 @@ AcDbLine
  10
 367
  20
-80
+90
  11
-367
+365
  21
 90
   0
@@ -22469,30 +22447,6 @@ ByLayer
 100
 AcDbLine
  10
-367
- 20
-90
- 11
-365
- 21
-90
-  0
-LINE
-  5
-2C7
-100
-AcDbEntity
-  8
-schematic
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
 365
  20
 90
@@ -22503,7 +22457,7 @@ AcDbLine
   0
 LINE
   5
-2C8
+2C7
 100
 AcDbEntity
   8
@@ -22522,6 +22476,30 @@ AcDbLine
 93
  11
 369
+ 21
+90
+  0
+LINE
+  5
+2C8
+100
+AcDbEntity
+  8
+schematic
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+369
+ 20
+90
+ 11
+367
  21
 90
   0
@@ -22541,11 +22519,11 @@ ByLayer
 100
 AcDbLine
  10
-369
+383
  20
-90
+80
  11
-367
+383
  21
 90
   0
@@ -22567,9 +22545,9 @@ AcDbLine
  10
 383
  20
-80
+90
  11
-383
+381
  21
 90
   0
@@ -22589,13 +22567,13 @@ ByLayer
 100
 AcDbLine
  10
-383
+381
  20
 90
  11
-381
+383
  21
-90
+93
   0
 LINE
   5
@@ -22613,13 +22591,13 @@ ByLayer
 100
 AcDbLine
  10
-381
- 20
-90
- 11
 383
- 21
+ 20
 93
+ 11
+385
+ 21
+90
   0
 LINE
   5
@@ -22637,41 +22615,17 @@ ByLayer
 100
 AcDbLine
  10
-383
- 20
-93
- 11
 385
+ 20
+90
+ 11
+383
  21
 90
   0
 LINE
   5
 2CE
-100
-AcDbEntity
-  8
-schematic
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-385
- 20
-90
- 11
-383
- 21
-90
-  0
-LINE
-  5
-2CF
 100
 AcDbEntity
   8
@@ -22695,7 +22649,7 @@ AcDbLine
   0
 INSERT
   5
-2D0
+2CF
 100
 AcDbEntity
   8
@@ -22735,7 +22689,7 @@ Switch-button-mk
   0
 LINE
   5
-2D1
+2D0
 100
 AcDbEntity
   8
@@ -22759,7 +22713,7 @@ AcDbLine
   0
 INSERT
   5
-2D2
+2D1
 100
 AcDbEntity
   8
@@ -22799,7 +22753,7 @@ junction
   0
 MTEXT
   5
-2D3
+2D2
 100
 AcDbEntity
   8
@@ -22845,7 +22799,7 @@ standard
   0
 MTEXT
   5
-2D4
+2D3
 100
 AcDbEntity
   8
@@ -22891,7 +22845,7 @@ standard
   0
 MTEXT
   5
-2D5
+2D4
 100
 AcDbEntity
   8
@@ -22937,7 +22891,7 @@ standard
   0
 MTEXT
   5
-2D6
+2D5
 100
 AcDbEntity
   8
@@ -22966,6 +22920,52 @@ AcDbMText
     1
   1
 4.7ohm\P2W
+  7
+standard
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+2D6
+100
+AcDbEntity
+  8
+frame-title
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+303.3333339693398
+ 20
+35
+ 30
+0
+ 40
+3
+ 41
+41.58333269732749
+ 71
+    1
+ 72
+    1
+  1
+Schema: MC-OL48-06\PFoglio: 14 di 18
   7
 standard
 210

@@ -1115,7 +1115,7 @@ AcDbViewportTableRecord
  21
 1
  12
-232.8350830311129
+233.0167016606223
  22
 150.5618438633327
  13
@@ -20357,52 +20357,6 @@ MTEXT
 100
 AcDbEntity
   8
-frame-title
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
-303
- 20
-36
- 30
-0
- 40
-3
- 41
-41.58333269732749
- 71
-    1
- 72
-    1
-  1
-Schema: MC-OL48-06\PAutore: Belardi\PData: 01/16\PFoglio: 5 di 18
-  7
-standard
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-MTEXT
-  5
-2BD
-100
-AcDbEntity
-  8
 labels
   6
 ByLayer
@@ -20428,6 +20382,52 @@ AcDbMText
     1
   1
 PER16B-SMD
+  7
+standard
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+2BD
+100
+AcDbEntity
+  8
+frame-title
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+303
+ 20
+36
+ 30
+0
+ 40
+3
+ 41
+41.58333269732749
+ 71
+    1
+ 72
+    1
+  1
+Schema: MC-OL48-06\PFoglio: 5 di 18
   7
 standard
 210

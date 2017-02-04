@@ -23,17 +23,17 @@ $INSBASE
   9
 $EXTMIN
  10
--0.5
+10000000000
  20
-0.25
+10000000000
  30
 0
   9
 $EXTMAX
  10
-419.5
+-10000000000
  20
-297.25
+-10000000000
  30
 0
   9
@@ -1115,9 +1115,9 @@ AcDbViewportTableRecord
  21
 1
  12
-232.6792899408284
+232.8350830311128
  22
-150.2573964497041
+150.3802252338233
  13
 0
  23
@@ -1145,7 +1145,7 @@ AcDbViewportTableRecord
  40
 304.0295857988166
  41
-1.680924855491329
+1.73715651135006
  42
 50
  43
@@ -2401,7 +2401,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-iso
+standard
  70
     0
  40
@@ -2415,7 +2415,7 @@ iso
  42
 1
   3
-iso
+standard
   4
 
   0
@@ -2429,7 +2429,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-standard
+iso
  70
     0
  40
@@ -2443,7 +2443,7 @@ standard
  42
 1
   3
-standard
+iso
   4
 
   0
@@ -2729,7 +2729,7 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-*D2
+*D1
  70
     0
 280
@@ -2747,7 +2747,7 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-*D1
+*D2
  70
     0
 280
@@ -3139,7 +3139,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-*D2
+*D1
  70
     1
  10
@@ -3147,113 +3147,13 @@ AcDbBlockBegin
  20
 0
   3
-*D2
+*D1
   1
 
   0
 LINE
   5
 8A
-100
-AcDbEntity
-  8
-schematic
-  6
-CONTINUOUS
- 62
-    7
-370
-    0
-100
-AcDbLine
- 10
-274.384043997956
- 20
-122.7563651899283
- 11
-249.7404989222916
- 21
-64.16982406665068
-  0
-SOLID
-  5
-8B
-100
-AcDbEntity
-  8
-schematic
-  6
-CONTINUOUS
- 62
-    7
-370
-    0
-100
-AcDbTrace
- 10
-274.384043997956
- 20
-122.7563651899283
- 30
-0
- 11
-273.7984391590472
- 21
-120.2905266127007
- 31
-0
- 12
-273.0309992236755
- 22
-120.6133386490079
- 32
-0
- 13
-273.0309992236755
- 23
-120.6133386490079
- 33
-0
-  0
-ENDBLK
-  5
-56
-330
-54
-100
-AcDbEntity
-  8
-0
-100
-AcDbBlockEnd
-  0
-BLOCK
-  5
-58
-330
-57
-100
-AcDbEntity
-  8
-0
-100
-AcDbBlockBegin
-  2
-*D1
- 70
-    1
- 10
-0
- 20
-0
-  3
-*D1
-  1
-
-  0
-LINE
-  5
-8C
 100
 AcDbEntity
   8
@@ -3277,7 +3177,7 @@ AcDbLine
   0
 SOLID
   5
-8D
+8B
 100
 AcDbEntity
   8
@@ -3312,6 +3212,106 @@ AcDbTrace
 191.9241933259679
  23
 116.0631964549929
+ 33
+0
+  0
+ENDBLK
+  5
+56
+330
+54
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+58
+330
+57
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+*D2
+ 70
+    1
+ 10
+0
+ 20
+0
+  3
+*D2
+  1
+
+  0
+LINE
+  5
+8C
+100
+AcDbEntity
+  8
+schematic
+  6
+CONTINUOUS
+ 62
+    7
+370
+    0
+100
+AcDbLine
+ 10
+274.384043997956
+ 20
+122.7563651899283
+ 11
+249.7404989222916
+ 21
+64.16982406665068
+  0
+SOLID
+  5
+8D
+100
+AcDbEntity
+  8
+schematic
+  6
+CONTINUOUS
+ 62
+    7
+370
+    0
+100
+AcDbTrace
+ 10
+274.384043997956
+ 20
+122.7563651899283
+ 30
+0
+ 11
+273.7984391590472
+ 21
+120.2905266127007
+ 31
+0
+ 12
+273.0309992236755
+ 22
+120.6133386490079
+ 32
+0
+ 13
+273.0309992236755
+ 23
+120.6133386490079
  33
 0
   0
@@ -18235,52 +18235,6 @@ MTEXT
 100
 AcDbEntity
   8
-frame-title
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbMText
- 10
-304.3333339693398
- 20
-35
- 30
-0
- 40
-3
- 41
-41.58333269732749
- 71
-    1
- 72
-    1
-  1
-Schema: MC-OL48-06\PAutore: Belardi\PData: 01/16\PFoglio: 10 di 18
-  7
-standard
-210
-0
-220
-0
-230
-1
- 50
-0
- 73
-    2
- 44
-1
-  0
-MTEXT
-  5
-242
-100
-AcDbEntity
-  8
 labels
   6
 ByLayer
@@ -18323,7 +18277,7 @@ standard
   0
 MTEXT
   5
-243
+242
 100
 AcDbEntity
   8
@@ -18369,7 +18323,7 @@ standard
   0
 MTEXT
   5
-244
+243
 100
 AcDbEntity
   8
@@ -18415,7 +18369,7 @@ standard
   0
 INSERT
   5
-245
+244
 100
 AcDbEntity
   8
@@ -18455,7 +18409,7 @@ junction
   0
 INSERT
   5
-246
+245
 100
 AcDbEntity
   8
@@ -18495,7 +18449,7 @@ junction
   0
 INSERT
   5
-247
+246
 100
 AcDbEntity
   8
@@ -18535,7 +18489,7 @@ junction
   0
 MTEXT
   5
-248
+247
 100
 AcDbEntity
   8
@@ -18564,6 +18518,52 @@ AcDbMText
     1
   1
 B48
+  7
+standard
+210
+0
+220
+0
+230
+1
+ 50
+0
+ 73
+    2
+ 44
+1
+  0
+MTEXT
+  5
+248
+100
+AcDbEntity
+  8
+frame-title
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbMText
+ 10
+304.3333339693398
+ 20
+35
+ 30
+0
+ 40
+3
+ 41
+41.58333269732749
+ 71
+    1
+ 72
+    1
+  1
+Schema: MC-OL48-06\PFoglio: 10 di 18
   7
 standard
 210

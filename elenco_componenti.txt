@@ -27,9 +27,9 @@ DIS                    TELERUTTORE DISCESA
 SAL                    TELERUTTORE SALITA
 PV                     RELÈ BASSA VELOCITÀ
 RP                     RELÈ PATTINO
-XY                     RELEÈ INTERFACCIA Y
+XY                     RELÈ INTERFACCIA Y
 PX                     RELÈ INTERFACCIA P
-SX                     RELEÈ INTERFACCIA SAL
+SX                     RELÈ INTERFACCIA SAL
 AP1 - AP2              RELÈ APERTURA
 CP1 - CP2              RELÈ CHIUSURA
 RSS                    RELÈ SICUREZZA (OMRON)
